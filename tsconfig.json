@@ -4,7 +4,8 @@
     "outDir": "./dist",
     "allowJs": true,
     "isolatedModules": false,
+    "jsx": "preserve",
     "types": ["cypress", "node"]
   },
-  "include": ["cypress/**/*.ts", "cypress/**/*.js"]
+  "include": ["./cypress", "./components"]
 }
