@@ -2,6 +2,7 @@ import { defineConfig } from 'cypress';
 
 export default defineConfig({
   fileServerFolder: '.',
+  projectId: 'crax9p',
   video: true,
   videosFolder: './dist/videos',
   downloadsFolder: './dist/downloads',
